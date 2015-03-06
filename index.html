@@ -21,7 +21,6 @@
         <p>If you want to send in your textures :-)</p>
         <p class="view"><a href="https://github.com/CoterieCraft/SendIn">View the Project on GitHub <small>CoterieCraft/SendIn</small></a></p>
         <ul>
-          <li><a href="https://github.com/CoterieCraft/SendIn/zipball/master">Download <strong>ZIP File</strong></a></li>
           <li><a href="https://github.com/CoterieCraft/SendIn">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
@@ -31,10 +30,33 @@ All you have to do:</p>
 
 <ul>
 <li>Give your MinecraftForum name or the name you want to have mensioned</li>
-<li>Add a link to the download or upload it here (if possible)</li>
+<li>Add a link where I can download your file (Dropbox prefered, Mediafire and MegaUpload is okay)</li>
 <li>Tell what mod your textures support, if it is vanilla add something like 'vanilla', 'minecraft' or something like that. If it is connected textures or related please call it 'optifine' or 'MCPatcher'</li>
 <li>Add optional info with what textures you created. If it is a connected texture just say what one block that is.</li>
 </ul>
+<form action="action_page.php">
+Name that needs to be mentioned:<br>
+<input type="text" name="Name that needs to be mentioned" value="">
+<br>
+Link to your contribution:<br>
+  <input type="url" name="link" value="http://">
+<br>
+Supports Mod(s):<br>
+<textarea name="Supports Mod(s)">
+Example: 
+- Minecraft 
+- Optifine
+</textarea>
+<br>
+Optional Info, like supported blocks:<br>
+<textarea name="Optional Info" rows="10" cols="30">
+Example:
+- Diamond block
+- Dirt
+</textarea>
+<br><br>
+<input type="submit" value="Submit">
+</form> 
       </section>
     </div>
     <footer>
